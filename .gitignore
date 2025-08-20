@@ -1,3 +1,6 @@
+# Juypter
+.jupyter_ystore.db
+
 # MacOS specific files
 .DS_Store
 
