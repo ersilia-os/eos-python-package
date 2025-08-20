@@ -37,4 +37,4 @@ This prints `"Hello, Ersilia!"` in the Python terminal.
 
 The [Ersilia Open Source Initiative](https://ersilia.io) is a tech-nonprofit organization fueling sustainable research in the Global South. Ersilia's main asset is the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia), an open-source repository of AI/ML models for antimicrobial drug discovery.
 
-![Ersilia Logo](assets/Ersilia_Brand.png | width=100)
+![Ersilia Logo](assets/Ersilia_Brand.png)
