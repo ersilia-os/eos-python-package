@@ -1,5 +1,6 @@
 # Juypter
 .jupyter_ystore.db
+.ipynb_checkpoints
 
 # MacOS specific files
 .DS_Store
