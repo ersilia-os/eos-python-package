@@ -1,3 +1,7 @@
+# Manually added
+data/
+tmp/
+
 # Juypter
 .jupyter_ystore.db
 .ipynb_checkpoints

@@ -14,14 +14,13 @@ authors = [
 requires-python = ">=3.10"
 
 dependencies = [
-  "numpy>=1.21",
+  "numpy==2.2.6",
 ]
 
 [project.optional-dependencies]
 dev = [
-  "pytest",
-  "black",
-  "flake8",
+  "pytest==9.0.3",
+  "ruff==0.15.13",
 ]
 
 [tool.setuptools.packages.find]

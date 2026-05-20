@@ -19,7 +19,7 @@ Then install the package using pip:
 pip install git+https://github.com/ersilia-os/my-ersilia-python-package.git
 ```
 
-## Usage
+## Quick start
 
 Provide an end-to-end usage example. All data should be included in the repository for reproducibility.
 
