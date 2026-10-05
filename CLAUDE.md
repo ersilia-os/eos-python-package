@@ -4,7 +4,7 @@ This is the developer guide for a Python package built from the Ersilia Open Sou
 
 ## Working with the user
 
-- **Ask, don't assume.** For any non-trivial decision — which approach to take, what to name something, whether to add a dependency, how to handle an ambiguous case — use the `AskUserQuestion` tool BEFORE editing. A couple of short questions up front beat a wrong-direction change.
+- **Ask, don't assume.** For any non-trivial decision (approach, naming, a new dependency, an ambiguous case), use `AskUserQuestion` before editing.
 - **Plans are mandatory.** Anything beyond a one-line fix or pure read-only investigation must go through plan mode. Be insistent: if invoked outside plan mode for non-trivial work, propose a plan in chat and stop until the user confirms. Do not skip planning to "save time".
 - **Surface uncertainty.** When you have multiple reasonable options or are unsure about intent, name them and ask. Don't pick silently.
 
@@ -71,3 +71,4 @@ Import the singleton everywhere — do not call `logging.getLogger(...)` directl
 
 - Be aware of Ersilia's codebase in [GitHub](https://github.com/ersilia-os). Ersilia develops many tools.
 - Ersilia maintains a set of skills in [`ersilia-skills`](https://github.com/ersilia-os/ersilia-skills). That repo is updated independently — check it for the current list before assuming a skill is or isn't available, and use a skill instead of writing the same logic from scratch when one fits.
+- When using a skill teaches you something it should know (an error, a missing case, a user correction), suggest a concrete improvement and offer to open a PR on ersilia-skills.
