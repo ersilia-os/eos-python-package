@@ -54,13 +54,12 @@ Import the singleton everywhere — do not call `logging.getLogger(...)` directl
 ## Data with eosvc
 
 - `data/` is gitignored on purpose. Do not commit datasets, model artefacts, or large binaries to git.
-- Use [`eosvc`](https://github.com/ersilia-os) to back `data/` with an S3 bucket when the package needs reproducible inputs or outputs across machines.
+- Use [`eosvc`](https://github.com/ersilia-os/eosvc) to back `data/` with an S3 bucket when the package needs reproducible inputs or outputs across machines.
 
 ## README guidelines
 
 - **Be brutally brief.** The README should answer "what is this and how do I use it" and nothing else. Aim for a screen or two. Long-form content belongs in `docs/`.
 - **Never use the package name as the H1 title.** For example, a package named `lazy-qsar` should not have `# lazy-qsar` at the top — write a short descriptive title instead (e.g. `# Lazy QSAR modelling for small molecules`).
-- **CLI commands as a table.** If the package ships a CLI, document its commands in one small table; don't reproduce `--help` output in Markdown.
 - **No AI-style filler.** Skip generic "Installation / Contributing / License / Acknowledgements" boilerplate unless the project actually has something to say about it.
 
 ## Versioning and releases
